@@ -1,5 +1,6 @@
 FROM  ubuntu:latest
 MAINTAINER maheswarbbb@gmail.com
+RUN yum -y update && yum -y install wget
 RUN yum install -y httpd \
  zip\
  unzip
