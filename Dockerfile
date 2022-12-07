@@ -2,7 +2,7 @@ FROM  ubuntu:latest
 MAINTAINER vikashashoke@gmail.com
 #RUN yum update -y 
 #RUN yum install -y httpd zip unzip
-RUN apt-update 
+RUN apt update 
 RUN apt-get -y install curl
 RUN apt install –y apache2 
 RUN apt install –y apache2-utils 
